@@ -35,7 +35,29 @@ $ npm install cupcake-pan
 * In terminal or environment that reads your code, evaluates it, prints, and then waits for your response. Similar to sql environment in terminal.
 * `.help` lists commands in REPL environment
 * can run files via `node [filepath]`
-* Timers: setTimeout || setInterval
+2. Timers: setTimeout || setInterval
+* setTimeout sets a timer in thousands of a second which delays execution of code
+* ```setTimeout(func, delay, arg1, arg2, arg3, ...)```
+* setInterval sets an interval for a repeating function or action (can be infinite)
+* clearTimeout is used to stop a function with a setTimeout()
+* clearInterval stops a function that has a setInterval() method
+```
+//print "Hello world" every seconds for 5 seconds
+//then print "Done and exit"
+// set iterator
+let counter = 0;
+// make a function that sets an interval that fires off every second
+// and increases counter
+const intervalId = setInterval(()=>{
+    console.log('Hello World');
+    counter += 1;
+
+    if(counter === 5) {
+        console.log('Done');
+        clearInterval(intervalId);
+    }
+}, 1000);
+```
 
 ## Modern JavaScript
 
