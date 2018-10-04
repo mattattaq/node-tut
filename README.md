@@ -30,6 +30,12 @@ $ npm install cupcake-pan
 2. Callbacks are like ordering coffee from Starbucks. You initiate the exchange and wait until the drink is ready to get the payload (latte). This is an example of Asynchronous Programming.
 
 ## Getting started with Node
+1. REPL
+* Read-Eval-Print-Loop
+* In terminal or environment that reads your code, evaluates it, prints, and then waits for your response. Similar to sql environment in terminal.
+* `.help` lists commands in REPL environment
+* can run files via `node [filepath]`
+* Timers: setTimeout || setInterval
 
 ## Modern JavaScript
 
