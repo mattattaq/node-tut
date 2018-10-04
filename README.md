@@ -41,7 +41,7 @@ $ npm install cupcake-pan
 * setInterval sets an interval for a repeating function or action (can be infinite)
 * clearTimeout is used to stop a function with a setTimeout()
 * clearInterval stops a function that has a setInterval() method
-```
+```js
 //print "Hello world" every seconds for 5 seconds
 //then print "Done and exit"
 // set iterator
