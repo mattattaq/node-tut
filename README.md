@@ -70,4 +70,4 @@ const intervalId = setInterval(()=>{
 ## Working with Operating Systems
 
 ## Links
-* [Node API Docs v9](https://nodejs.org/docs/latest-v9.x/api/)
+* [Node API Docs v9](https://nodejs.org/docs/latest-v9.x/api/){:target="_blank"}
