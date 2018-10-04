@@ -26,6 +26,7 @@ $ npm install cake-mix
 $ npm install cupcake-pan
 ```
 [from FreeCodeCamp}(https://medium.freecodecamp.org/hard-coding-concepts-explained-with-simple-real-life-analogies-280635e98e37)
+2. Callbacks are like ordering coffee from Starbucks. You initiate the exchange and wait until the drink is ready to get the payload (latte). This is an example of Asynchronous Programming.
 
 ## Getting started with Node
 
