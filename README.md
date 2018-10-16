@@ -58,8 +58,6 @@ const intervalId = setInterval(()=>{
     }
 }, 1000);
 ```
-
-## Modern JavaScript
 * setTimeout(func, delay, arg1, arg2, etc... );
 ```js
 //example
@@ -90,6 +88,16 @@ const intervalId = setInterval(()=>{
     }
 }, 1000);
 ```
+## Modern JavaScript
+* is `{{{}}}` valid js? `Yes`
+* {} = block scopes
+```js
+{{{ var a=42;}}} console.log(a);
+///yeilds 42
+```
+* const = constant reference to a variable
+* let = variable that can't be accessed outside of block scope
+
 
 ## NPM: Node Package Manager
 
