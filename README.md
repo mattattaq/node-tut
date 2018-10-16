@@ -60,6 +60,36 @@ const intervalId = setInterval(()=>{
 ```
 
 ## Modern JavaScript
+* setTimeout(func, delay, arg1, arg2, etc... );
+```js
+//example
+const rocks = who => {
+    console.log(who + ' rocks');
+}
+
+setTimeout(rocks, 2 * 1000, 'Pluralsight');
+```
+
+* setInterval - The setInterval() method calls a function or evaluates an expression at specified intervals (in milliseconds).
+
+The setInterval() method will continue calling the function until clearInterval() is called, or the window is closed.
+
+The ID value returned by setInterval() is used as the parameter for the clearInterval() method.
+
+* Counter challenge
+```js
+//print 'Hello World' once every second five times then print 'Done' in the console
+let counter = 0;
+const intervalId = setInterval(()=>{
+    console.log('Hello World');
+    counter += 1;
+
+    if(counter === 5) {
+        console.log('Done');
+        clearInterval(intervalId);
+    }
+}, 1000);
+```
 
 ## NPM: Node Package Manager
 
